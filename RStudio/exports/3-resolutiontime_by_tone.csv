@@ -1,0 +1,5 @@
+tone,count,mean_resolution,median_resolution,sd_resolution
+casual,11,237.9090909,6,503.1553348
+frustrated,41,347.8292683,68,578.3921638
+neutral,209,195.1100478,18,560.8085529
+professional,124,163.9112903,15,497.6962866
