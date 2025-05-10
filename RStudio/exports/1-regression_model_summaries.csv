@@ -1,8 +1,4 @@
-model,,Estimate,Std. Error,t value,Pr(>|t|)
-Linear,(Intercept),246.4538767,35.70921034,6.90168935,2.14E-11
-Linear,commentlength,-0.051081981,0.026455237,-1.930883491,0.054235217
-Logarithmic,(Intercept)1,604.8818691,149.2868636,4.051809078,6.16E-05
-Logarithmic,log(commentlength),-65.32073717,23.82567857,-2.741610778,0.006400542
-Quadratic,(Intercept)2,291.6508941,45.42313861,6.420756095,4.03E-10
-Quadratic,commentlength1,-0.148829648,0.066390256,-2.24173932,0.02555169
-Quadratic,I(commentlength^2),2.13E-05,1.33E-05,1.604653427,0.109396478
+Model,Estimate,Std. Error,t value,Pr(>|t|),r.squared,adj.r.squared,f.statistic
+Linear,-0.0511,0.0265,-1.9309,0.0542,0.0096,0.0071,3.7283
+Logarithmic,-65.3207,23.8257,-2.7416,0.0064,0.0192,0.0167,7.5164
+Quadratic,-0.1488,0.0664,-2.2417,0.0256,0.0163,0.0111,3.1593
